@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Papelaria e Gráfica Rápida</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ff69b4;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    table {
+      width: 90%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #ffd1dc;
+    }
+    .botao-add, .botao-finalizar, .botao-limpar {
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .botao-add:hover, .botao-finalizar:hover, .botao-limpar:hover {
+      background-color: #ff85c1;
+    }
+    #carrinho {
+      width: 90%;
+      margin: 20px auto;
+      background-color: #fff0f5;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #ff69b4;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .pix-section {
+      margin-top: 10px;
+    }
+    .pix-key {
+      background-color: white;
+      color: #333;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 5px;
+      display: inline-block;
+    }
+    .copy-btn {
+      margin-left: 10px;
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    #whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      font-size: 30px;
+      text-align: center;
+      line-height: 60px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Papelaria e Gráfica Rápida
+  </header>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Produto</th>
+        <th>Descrição</th>
+        <th>Preço</th>
+        <th>Quantidade</th>
+        <th>Ação</th>
+      </tr>
+    </thead>
+    <tbody id="tabela-produtos">
+      <!-- Os produtos serão adicionados aqui dinamicamente -->
+    </tbody>
+  </table>
+
+  <div id="carrinho">
+    <h3>Carrinho de Compras</h3>
+    <ul id="lista-carrinho"></ul>
+    <p><strong>Total: R$ <span id="total-geral">0.00</span></strong></p>
+    <button class="botao-finalizar" onclick="finalizarCarrinho()">Finalizar Pedido (WhatsApp)</button>
+    <button class="botao-limpar" onclick="limparCarrinho()">Limpar Carrinho</button>
+  </div>
+
+  <footer>
+    <p>Pagamento via PIX:</p>
+    <img src="img/qrcod.png" alt="QR Code PIX" width="150">
+    <div class="pix-section">
+      <span class="pix-key" id="chavePix">papelariaeservicos2021@gmail.com</span>
+      <button class="copy-btn" onclick="copiarChavePix()">Copiar</button>
+    </div>
+    <p>Obrigado por comprar conosco! 💖</p>
+  </footer>
+
+  <button id="whatsapp-button" onclick="window.open('https://wa.me/5585987451317', '_blank')">📱</button>
+
+  <script>
+    const carrinho = [];
+
+    const produtos = [
+      { nome: "Cartão de Visita", descricao: "Usamos o Papel couchê c/ gramatura 250g - frente qtd.100 unid.", preco: 50.00 },
+      { nome: "Canecas personalizadas", descricao: "Caneca Personalizada escolha o tema de sua preferencia e envie para o nosso zap", preco: 35.00 },
+      { nome: "Camisa personalizadas", descricao: "Camisa Personalizada Tam.G cores variadas envie o tema para o nosso zap", preco: 45.00 },
+      { nome: "Currículo com foto", descricao: "Currículo personalizado c/ foto - envie os dados para o nosso zap", preco: 15.00 },
+      { nome: "Carta de Apresentação", descricao: " Fazemos sua carta de apresentação Envie os dados para o nosso zap", preco: 15.00 },
+      { nome: "Foto 3x4", descricao: "10 und. cortadas (envie a foto para o nosso zap)", preco: 15.00 },
+      { nome: "Fotos 10x15", descricao: "Qtd. 04 und. papel fotográfico (envie a foto para o nosso zap)", preco: 15.00 },
+      { nome: "Adesivo", descricao: "Adesivo redondo tam 4,5cm x 4,5cm folha Adesiva  com 60 und.", preco: 35.00 },
+      { nome: "Cartaz", descricao: "Cartaz tam. A3 papel couchê 230gr plastificado - nos envie a arte ou criamos", preco: 25.00 },
+      { nome: "Cartaz", descricao: "Cartaz tam. A4 papel couchê 230gr plastificado- nos envie a arte ou criamos", preco: 15.00 },
+      { nome: "Impressão", descricao: "Impressão Digital colorida plastificado tam. A4 papel sulfite qtd. 01", preco: 15.00 },
+      { nome: "Impressão", descricao: "Impressão Digital colorida plastificado tam. A3 papel sulfite qtd. 01", preco: 20.00 },
+      { nome: "Impressão", descricao: "Impressão Digital colorida tam. A4 papel sulfite qtd. 01 ", preco: 3.00 },
+      { nome: "Impressão", descricao: "Impressão Digital colorida tam.A3 papel sulfite  qtd. 01", preco: 6.00 },
+      { nome: "Cópia", descricao: " Cópia Digital 01 lado papel sulfite p&b", preco: 1.50 },
+      { nome: "Cópia", descricao: " Cópia Digital 01 lado papel sulfite color ", preco: 2.50 },
+      { nome: "Calculadora", descricao: "12 dígitos Kenko c/ pilha AAA", preco: 25.00 },
+      { nome: "Carregador iPhone i5", descricao: "Carregador Rápido de viajem dual USB 3.6A - X-501", preco: 25.00 },
+      { nome: "Carregador Sansung Tipo C 3.0", descricao: "Carregador Rápido Samsung", preco: 25.00 },
+      { nome: "Almofada Carimbo", descricao: "Nas cores Vermelha, Azul, Preta", preco: 15.00 },
+      { nome: "Tinta Tecido", descricao: "Tinta p/ tecido 37g várias cores", preco: 6.00 },
+      { nome: "Tinta PVA", descricao: "Tinta p/ Artesanato 37g várias cores", preco: 6.00 },
+      { nome: "Tela 18x24", descricao: "Tela de pintura tam. 18x24", preco: 12.00 },
+      { nome: "Tela 20x30", descricao: "Tela de pintura tam. 20x30", preco: 15.00 },
+      { nome: "Pincel Acabamento Condor", descricao: "Pincel Acabamento Condor 01 und.", preco: 8.00 },
+      { nome: "Pincel Chato 02 Condor", descricao: "Pincel ponta chata Condor - nº02 - 01 und.", preco: 10.00 },
+      { nome: "Pincel Chato 10 Condor", descricao: "Pincel ponta chata Condor - nº 10 - 01 und.", preco: 12.00 },
+      { nome: "Pincel Chato 20 Condor", descricao: "Pincel ponta chata Condor - nº 20 - 01 und.", preco: 14.00 },
+      { nome: "Pistola Cola Grande LeoArte", descricao: "LeoArte 01 und.", preco: 38.00 },
+      { nome: "Pistola Cola Pequena", descricao: "LeoArte 01 und.", preco: 32.00 },
+      { nome: "Bastão de Cola Grande", descricao: "TekBond 01 und.", preco: 2.50 },
+      { nome: "Bastão de Cola Pequeno", descricao: "TekBond 01 und.", preco: 2.00 },
+      { nome: "Plastificação A4", descricao: "Documento tipo cerificado e outros no tam. A4 - 01 und.", preco: 8.00 },
+      { nome: "Plastificação RG", descricao: "Documento tipo RG, cartão SUS, CPF - 01 und.", preco: 5.00 },
+      { nome: "Resma de Papel", descricao: "Resma de papel Report 75gr A4 - 01 und.", preco: 30.00 },
+      { nome: "Caderno pequeno", descricao: "Caderno pequeno tam. carta - 01 und.", preco: 10.00 },
+      { nome: "Caderno 1 Matéria", descricao: "01 und.", preco: 15.00 },
+      { nome: "Caderno 10 Matérias", descricao: "01 und.", preco: 20.00 },
+      { nome: "Caderno 20 Matérias", descricao: "400 folhas várias estampas", preco: 40.00 },
+      { nome: "Caderno Brochura", descricao: "Sem arame capa dura", preco: 15.00 },
+      { nome: "Caderno de Desenho", descricao: "Cartográfico masc./fem.", preco: 15.00 },
+      { nome: "Carnê INSS", descricao: "01 und.", preco: 6.00 },
+      { nome: "Cartolina Cartão", descricao: "Cartolina-Cartão muito boa p/ trabalhos escolares várias cores", preco: 4.00 },
+      { nome: "Cartolina Dupla Face", descricao: "Cartolina dupla-face muito boa p/ trabalhos artesanais Cores variadas", preco: 3.00 },
+      { nome: "EVA Liso", descricao: "E.V.A liso muito bom p/ trabalhos artesanais e escolares Tam. 40x95", preco: 8.00 },
+      { nome: "EVA c/ Glitter", descricao: "E.V.A c/ Glitter muito bom p/ trabalhos artesanais Tam. 40x60", preco: 10.00 },
+      { nome: "Caneta esferográfica da marca BIC c/ 04 cores", descricao: " caneta esferográfica c/04 Cores: Vermelha, Azul, Preta e verde", preco: 8.00 },
+      { nome: "Caneta esferográfica da marca BIC", descricao: " caneta esferográfica nas Cores: Vermelha, Azul, Preta", preco: 2.00 },
+      { nome: "Caneta esferográfica da marca COMPACTOR 07", descricao: "caneta esferográfica nas Cores: Vermelha, Azul, Preta", preco: 2.00 },
+      { nome: "Caneta esferográfica SPIRO - CIS", descricao: "caneta esferográfica SPIRO Cores: Variadas", preco: 4.00 },
+      { nome: "Caneta esferográfica Retrátil - Piloto", descricao: "caneta esferográfica Retrátil - CIS - nas Cores: Verm. Azul e Preta", preco: 6.00 },
+      { nome: "Caneta marcador de CD/DVD ponta 2.0", descricao: "Marcador de CD/DVD: Vermelha, Azul, Preta e verde", preco: 7.00 },
+      { nome: "Caneta marcador p/ Quadro Branco", descricao: "Caneta p/ Quadro Branco nas cores: Vermelha, Azul, Preta", preco: 6.00 },
+      { nome: "Caneta marcador de texto ", descricao: "Caneta marcador de texto cores: Variadas", preco: 5.00 },
+      { nome: "Lapiseira 0.7mm BRW Linha Neon ", descricao: "Lapiseira plástica 0.7mm cores: Variadas", preco: 5.00 },
+      { nome: "Lapiseira 2.0mm LEOLEO ", descricao: "Lapiseira LEOLEO 2.0 mm cores: Variadas", preco: 7.00 },
+      { nome: "Grafite tam. 0.7mm ", descricao: "Grafite tam. 0.7mm caixinha com 12 und.", preco: 2.50 },
+      { nome: "Grafite tam. 2.0mm ", descricao: "Grafite tam. 2.0mm caixinha com 08 und.", preco: 3.50 },
+      { nome: "Grafite tam. 0.9mm ", descricao: "Grafite tam. 0.9mm caixinha com 12 und.", preco: 3.00 },
+      { nome: "Lápis infantil abraçadinhos grafite HB marca CIS", descricao: " Lápis infantil abraçadinhos grafite HB marca CIS", preco: 8.00 },
+      { nome: "Lápis HB2 hexagonal", descricao: " Lápis HB2 hexagonal p/ desenhista 01 und.", preco: 8.00 },
+      
+      
+      
+      
+      
+    ];
+
+    function renderizarProdutos() {
+      const tabela = document.getElementById("tabela-produtos");
+      produtos.forEach((p, i) => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td>${p.nome}</td>
+          <td>${p.descricao}</td>
+          <td>${p.preco.toFixed(2)}</td>
+          <td><input type="number" id="qtd${i}" min="1"></td>
+          <td><button class="botao-add" onclick="adicionarAoCarrinho('${p.nome}', 'qtd${i}', ${p.preco})">Adicionar</button></td>
+        `;
+        tabela.appendChild(tr);
+      });
+    }
+
+    function adicionarAoCarrinho(produto, idQtd, preco) {
+      const input = document.getElementById(idQtd);
+      const qtd = parseInt(input.value);
+      if (!qtd || qtd < 1) {
+        alert("Insira uma quantidade válida.");
+        return;
+      }
+      const existente = carrinho.find(item => item.produto === produto);
+      if (existente) {
+        existente.qtd += qtd;
+      } else {
+        carrinho.push({ produto, qtd, preco });
+      }
+      atualizarCarrinho();
+      input.value = "";
+    }
+
+    function atualizarCarrinho() {
+      const lista = document.getElementById("lista-carrinho");
+      lista.innerHTML = "";
+      let total = 0;
+      carrinho.forEach(item => {
+        total += item.qtd * item.preco;
+        const li = document.createElement("li");
+        li.textContent = `${item.qtd}x ${item.produto} - R$ ${(item.qtd * item.preco).toFixed(2)}`;
+        lista.appendChild(li);
+      });
+      document.getElementById("total-geral").textContent = total.toFixed(2);
+    }
+
+    function finalizarCarrinho() {
+      if (carrinho.length === 0) {
+        alert("Seu carrinho está vazio.");
+        return;
+      }
+      let msg = "Olá! Gostaria de fazer o seguinte pedido:%0A";
+      carrinho.forEach(item => {
+        msg += `- ${item.qtd}x ${item.produto} (R$ ${(item.qtd * item.preco).toFixed(2)})%0A`;
+      });
+      const total = carrinho.reduce((sum, item) => sum + item.qtd * item.preco, 0);
+      msg += `%0ATotal: R$ ${total.toFixed(2)}`;
+      const url = `https://wa.me/5585987451317?text=${msg}`;
+      window.open(url, '_blank');
+    }
+
+    function limparCarrinho() {
+      carrinho.length = 0;
+      atualizarCarrinho();
+    }
+
+    function copiarChavePix() {
+      const chave = document.getElementById("chavePix").textContent;
+      navigator.clipboard.writeText(chave).then(() => {
+        alert("Chave QRCODE copiada!");
+      });
+    }
+
+    window.onload = renderizarProdutos;
+  </script>
+</body>
+</html>
