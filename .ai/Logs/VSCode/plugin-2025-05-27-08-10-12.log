@@ -1,0 +1,648 @@
+[27/05/2025, 08:10:12] info: Logging was started to file.
+[27/05/2025, 08:10:12] info: Start application inspector initialization
+[27/05/2025, 08:10:12] info: Hide developer mode UI
+[27/05/2025, 08:10:12] info: Infrastructure Configurations: {"port":8000,"infrastructureAssemblyFolderPath":"C:\\Users\\papel\\AppData\\Local\\Application Inspector Analyzer","applicationResourcesFolderPath":"C:\\Users\\papel\\AppData\\Local\\Application Inspector Analyzer","scanTargetFolderPath":"c:\\Users\\papel\\Desktop\\papelaria-carrinho","isDebugging":false,"logLevel":{"i2_1":"Error","j2_1":5,"type":5,"key":"Settings.LogLevel.Error.Text"},"logDir":"c:\\Users\\papel\\Desktop\\papelaria-carrinho\\.ai\\Logs\\Infrastructure\\2025-05-27-08-10-12","tipsFoundNotificationThreshold":15,"similarIssuesFoundNotificationThreshold":15,"applicationLocalDataFolderPath":"c:\\Users\\papel\\Desktop\\papelaria-carrinho\\.ai"}
+[27/05/2025, 08:10:12] info: Start infrastructure initialization
+[27/05/2025, 08:10:15] info: Infrastructure was started
+[27/05/2025, 08:10:18] info: Initialize aie integration isn't initialized
+[27/05/2025, 08:10:18] info: Infrastructure was initialized
+[27/05/2025, 08:10:18] info: Infrastructure Installer was deleted
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for apache mod_negotiation resource location disclosure
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for arbitrary directory copying
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for arbitrary directory creation
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for arbitrary directory deletion
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for arbitrary directory listing
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for arbitrary directory moving
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for arbitrary file copying
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for arbitrary file creation
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for arbitrary file deletion
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for arbitrary file modification
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for arbitrary file moving
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for arbitrary file reading
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for cookie injection
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for credentials brute-force
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for cross-site request forgery
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for cross-site scripting
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for cursor injection
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for cursor sqli
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for default
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for denial of service
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for deserialization of untrusted data
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for df
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for djangoorminjection
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for dll injection
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for double free
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for dynamic code injection
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for dynamic query injection
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for external control of configuration
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for fingerprinting
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for format string
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for hardcoded password
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for heap overflow
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for http header injection
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for http request splitting
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for http response splitting
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for improper access control taint
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for improper resource shutdown or release
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for information exposure
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for injection
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insecure direct object references
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insufficient session expiration
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for integer overflow
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for ldap injection
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for like injection
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for linq injection
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for local file inclusion
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for log forging
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for nosql injection
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for null dereference
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for object injection
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for open redirect
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for orm injection
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for os commanding
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for padding oracle attack
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for path traversal
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for persistent cookie exposing
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for potential path traversal
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for process control
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for redos
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for remote code execution
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for remote file inclusion
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for resource exhaustion
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for resource location brute-force
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for server-side request forgery
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for server-side template injection
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for serverfingerprinting
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for session management weakness
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for shellshock
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for smtp header injection
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for sql injection
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for sqli
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for stack overflow
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for uaf
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for uncontrolled data manipulation
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for uncontrolled env var modification
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for unrestricted file upload
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for use after free
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for webview xss taint
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for xml entity expansion
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for xml external entity
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for xpath injection
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for xquery injection
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 100
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 101
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 102
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 103
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 104
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 105
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 107
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 108
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 109
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 111
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 113
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 114
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 116
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 117
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 118
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 120
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 122
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 123
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 124
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 125
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 127
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 128
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 129
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 130
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 135
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 138
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 139
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 140
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 141
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 142
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 144
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 145
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 146
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 147
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 148
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 149
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 150
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 151
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 152
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 153
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 154
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 156
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 157
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 158
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 159
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 160
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 161
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 162
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 163
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 164
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 165
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 200
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 24544
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 24545
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 24546
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 24547
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 24548
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 24549
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 24550
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 24551
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 24552
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 24553
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 24554
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 24555
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 24556
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 24557
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 24558
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 24559
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 24560
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 24561
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 24562
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 24563
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 24564
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 24565
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 24566
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 24567
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 24568
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 305
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 96
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 97
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 98
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for 99
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for attributes code inside addeventlistener
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for attributes code inside attachevent
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for attributes code inside createattribute
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for attributes code inside element event
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for attributes code inside setattribute
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for attributes code inside setattributens
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for buffer overflow
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for buffer overflow in python
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for buffer overflow pm
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for class defines clone but not implement cloneable
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for csrf protection disabled
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for cursor snarfing plsql
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for cursor snarfing tsql
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for dangerous function plsql
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for dangerous function tsql
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for debug information leakage
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for debug mode python
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for deprecated functions objc
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for deserialization of untrusted data pm
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for deserialization of untrusted data pm python
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for detection of error condition without action
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for direct use of threads
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for directorytraversalcreatereadstream
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for directorytraversalreadfile
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for disabling ssl certificate checks
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for disabling ssl certificate checks c
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for disabling ssl-tls certificate checks go
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for divide by zero
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for dom modification contextual fragment
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for dom modification html tag
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for dom modification selected position
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for dom modification string inside document
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for download of code without integrity check
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for embedded malicious code
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for empty default exception handler
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for erroneous null comparison
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for exposure of data element to wrong session
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for exposure of system data to an unauthorized control sphere
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for external control of file name or path
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for file snarfing plsql
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for format string pm
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for forwarding via location
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for forwarding via location function
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for forwarding via opening new tab
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for ftpusage
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for go weak cryptographic hash
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for hardcoded initialization vector
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for hardcoded key
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for hardcoded password kotlin
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for hardcoded password pm
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for hardcoded pbkdf password
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for headerinjection
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for improper access control
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for improper access control c
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for improper certificate validation
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for improper check for unusual or exceptional conditions
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for improperly implemented security check for standard
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for include interface ssl
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for incorrect permission assignment for critical resource
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for incorrect permission assignment for critical resource 1
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for incorrect permission assignment for critical resource go
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for incorrect permission assignment for critical resource java
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for incorrect unix api using
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for incorrect usage of seeds in pseudo-random number generator
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for incorrectpermissionassignmentphp
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for information exposure pm
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for information exposure through an error message
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for information exposure through comments
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for information exposure through persistent cookies
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for information exposure through persistent cookies 1
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for information exposure through static content
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for informationexposureviaexception
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insecure cipher key export
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insecure connection protocol
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insecure cookie 1
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insecure cookie 2
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insecure cookie scope
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insecure data storage
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insecure data storage objc simple
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insecure network binding
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insecure randomness ojbc
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insecure randomness plsql
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insecure randomness tsql
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insecure rsa padding
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insecure rsa padding 1
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insecure ssl connection
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insecure ssl connection 1
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insecure ssl protocol
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insecure transport java
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insecure usage of jinja templates
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insecure usage of mako templates
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insecure validation functions
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insecure validation functions 1
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insecure work with temporary files
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insecureevalpython
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insufficient cors policy
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insufficient encryption key length
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insufficient encryption key length 1
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insufficient key size go
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insufficient logging&monitoring
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insufficient session expiration pm
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for insufficientencryptionkeylength
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for integer overflow pm
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for jquery function that adds element
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for jquery function that replaces element
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for jquery html inside dom
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for jquery unsafe functions for dom
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for jquery wrap element to html
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for json-test
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for lack of the host key verification go
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for least privilege violation
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for leftover debug code
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for marksafepython
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for memory leak
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for method without super clone
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for method without super finalize
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for missing auth localized reason
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for missing encryption of sensitive data
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for none
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for notlsreject
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for nslog using
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for null dereference pattern
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for null pbkdf password
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for obsolete function
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for openredirect
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for overly broad grant
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for override equals method without hashcode
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for pattern matching
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php pm sensitive cookie in https session without ‘secure’ attribute
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for plaintext storage of a password
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for plaintext storage of a password 1
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for play 1 html xss
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for play 2 html xss
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for poor logging practice logger
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for poor logging practice system
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for possible rce through sql injection
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for private array typed field returned from a public method
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for public data assigned to private array typed field
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for python weak cryptographic hash
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for python2input
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for pythonassertion
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for reflectedcrosssitescripting
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for reliance on dns lookups in a security decision
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for return of stack variable address
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for reversible one way hash
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for sensitive cookie in https session without ‘secure’ attribute
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for sensitive cookie in https session without httponly attribute
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for sensitive cookie in https session without secure attribute
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for serversideinjectioneval
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for serversideinjectionfunction
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for serversideinjectionsetinterval
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for serversideinjectionsettimeout
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for serversideinjectionyaml
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for ssl configuration flaws
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for static random number generator
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for time of check time of use race condition
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for trust boundary violation
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for type confusion
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for uncontrolled memory allocation
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for uncontrolled recursion
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for unreachable code
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for unsafe cross-origin resource sharing
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for unsafe reflection
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for unsalted one way hash
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for unsalted one way hash 1
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for unsaltedonewayhash
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for unused var
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for urllibusagepython
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for use broken crypto
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for use of a broken or risky cryptographic algorithm
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for use of a broken or risky cryptographic algorithm 1
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for use of a broken or risky cryptographic algorithm 2
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for use of a broken or risky cryptographic algorithm 3
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for use of a broken or risky cryptographic algorithm 4
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for use of a broken or risky cryptographic algorithm 5
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for use of a broken or risky cryptographic algorithm 6
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for use of a broken or risky cryptographic algorithm go
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for use of function with inconsistent implementations
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for use of hardcoded cryptographic key
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for use of insufficiently random values
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for use of insufficiently random values 1
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for use of insufficiently random values 2
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for use of nullpointerexception catch
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for use of obsolete function 1
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for use of system exit
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for use of uninitialized variable
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for user driven insecure hash algorithm
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for user driven insecure hash algorithm 1
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for vulnerable template module
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for weak crypto api objc
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for weak crypto hash api objc
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for weak crypto iv objc
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for weak crypto key objc
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for weak cryptographic algorithm 1
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for weak cryptographic hash
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for weak cryptographic hash plsql
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for weak cryptographic hash tsql
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for weak hmac key objc
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for weak password requirements
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for weak pbkdf salt
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for weak rsa objc
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for weakhashcrypto
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for weakhashcryptojs
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for webforms validaterequest
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for webview xss
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for xml external entity pm
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for xss protection disabled
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for yaml load
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for .htaccess addhandler
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for .htaccess addtype
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for .htaccess options
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for .htaccess php_value
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for .htaccess serversignature
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for android_manifest.xml @android:allowbackup
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for android_manifest.xml @android:debuggable
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for android_manifest.xml @android:exported
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for android_manifest.xml @android:exported[provider]
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for android_manifest.xml @android:protectionlevel
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for android_manifest.xml @android:scheme
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for android_networksecurityconfig.xml @src
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for apache.conf addhandler
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for apache.conf addtype
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for apache.conf loadmodule
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for apache.conf options
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for apache.conf php_value
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for apache.conf serversignature
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for apache.conf servertokens
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for apache.conf traceenable
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for applicationhost.config @accesspolicy
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for applicationhost.config @notlistedisapisallowed
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for applicationhost.config @username
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf arbitrary file upload file_uploads
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf cross site scripting vulnerability http-only
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf cross site scripting vulnerability httponlycookies
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf cross site scripting vulnerability register_globals
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf cross site scripting vulnerability session.cookie_httponly
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf cross site scripting vulnerability traceenable
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf cross site scripting vulnerability validaterequest
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf denial of service loadmodule security2_module
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf denial of service max_execution_time
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf denial of service max_input_nesting_level
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf denial of service max_input_time
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf denial of service memory_limit
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf denial of service post_max_size
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf denial of service upload_max_filesize
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf directory indexing autoindex
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf directory indexing loadmodule autoindex_module
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf directory indexing options
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf directory indexing ssi
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf information leakage curl.cainfo
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf information leakage debug
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf information leakage display_errors
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf information leakage display_startup_errors
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf information leakage error-code
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf information leakage errordocument
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf information leakage expose_php
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf information leakage loadmodule include_module
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf information leakage loadmodule info_module
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf information leakage loadmodule negotiation_module
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf information leakage mode
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf information leakage param-name
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf information leakage param-name-xsrf
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf information leakage request_order
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf information leakage server_tokens
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf information leakage serversignature
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf information leakage servertokens
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf information leakage statuscode
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf information leakage value
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf insufficient authentication enableviewstatemac
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf insufficient session expiration session-timeout
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf insufficient transport layer protection requiressl
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf insufficient transport layer protection secure
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf insufficient transport layer protection transport-guarantee
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf obsolete option safe_mode
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf obsolete option safe_mode_exec_dir
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf obsolete option safe_mode_gid
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf obsolete option safe_mode_include_dir
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf path traversal vulnerability open_basedir
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf remote code execution addhandler
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf remote code execution addtype
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf remote code execution assert.active
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf remote code execution auto_append_file
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf remote code execution auto_prepend_file
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf remote code execution enable_dl
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf remote code execution php_value
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf remote command execution disable_functions
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf remote command execution http-method
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf remote command execution loadmodule cgi_module
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf remote file inclusion allow_url_fopen
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf remote file inclusion allow_url_include
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf remote file inclusion cgi.fix_pathinfo
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf response splitting enableheaderchecking
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf response splitting useunsafeheaderparsing
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf session hijacking log_errors
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf session hijacking session.cookie_lifetime
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf session hijacking session.cookie_secure
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf session hijacking session.referer_check
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf session hijacking session.save_path
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf session hijacking session.use_cookies
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf session hijacking session.use_only_cookies
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf session hijacking session.use_strict_mode
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf session hijacking ssl
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf session hijacking ssl_certificate
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf session hijacking ssl_certificate_key
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf session hijacking ssl_ciphers
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf session hijacking ssl_dhparam
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf session hijacking ssl_prefer_server_ciphers
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf session hijacking ssl_protocols
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf session hijacking ssl_session_cache
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf session hijacking ssl_session_timeout
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf session hijacking ssl_stapling
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf session hijacking tracking-mode
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf sql injection magic_quotes_gpc
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf sql injection magic_quotes_runtime
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for conf sql injection magic_quotes_sybase
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for domain.xml @audit-enabled
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for domain.xml @port
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for domain.xml @value
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for domain.xml @xpowered-by
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for domain.xml jvm-options
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for ios_info.plist cfbundleurltypes
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for ios_info.plist nsexceptionallowsinsecurehttploads
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for ios_info.plist nsexceptionminimumtlsversion
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for ios_info.plist nstemporarythirdpartyexceptionallowsinsecurehttploads
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for ios_info.plist nstemporarythirdpartyexceptionminimumtlsversion
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for lighttpd.conf cgi.assign
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for lighttpd.conf server.dir-listing
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for lighttpd.conf setenv.add-response-header
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for lighttpd.conf status.config-url
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for lighttpd.conf status.status-url
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for lighttpd.conf webdav.is-readonly
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for machine.config @debug
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for machine.config @decryption
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for machine.config @decryptionkey
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for machine.config @passwordformat
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for machine.config @retail
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for machine.config @username[@processmodel]
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for machine.config @validation
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for machine.config @validationkey
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for nginx.conf add_header
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for nginx.conf add_header[inheritance]
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for nginx.conf alias[traversal]
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for nginx.conf autoindex
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for nginx.conf error_log
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for nginx.conf error_page
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for nginx.conf more_set_headers
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for nginx.conf proxy_set_header
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for nginx.conf server_tokens
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for nginx.conf ssi
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for nginx.conf ssl
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for nginx.conf ssl_certificate
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for nginx.conf ssl_certificate_key
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for nginx.conf ssl_ciphers
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for nginx.conf ssl_dhparam
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for nginx.conf ssl_prefer_server_ciphers
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for nginx.conf ssl_protocols
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for nginx.conf ssl_session_cache
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for nginx.conf ssl_session_timeout
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for nginx.conf ssl_stapling
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for nginx.conf valid_referers
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini allow_url_fopen
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini allow_url_include
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini assert.active
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini auto_append_file
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini auto_prepend_file
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini cgi.fix_pathinfo
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini cgi.force_redirect
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini disable_functions
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini display_errors
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini display_startup_errors
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini enable_dl
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini expose_php
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini log_errors
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini magic_quotes_gpc
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini magic_quotes_runtime
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini magic_quotes_sybase
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini max_execution_time
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini max_input_nesting_level
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini max_input_time
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini memory_limit
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini open_basedir
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini post_max_size
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini register_globals
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini request_order
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini safe_mode
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini session.cookie_httponly
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini session.cookie_lifetime
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini session.cookie_secure
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini session.save_path
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini session.use_cookies
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini session.use_only_cookies
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini session.use_strict_mode
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini session.use_trans_sid
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for php.ini upload_max_filesize
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for potential vulnerability
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for server.xml_tomcat @allowtrace
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for server.xml_tomcat @autodeploy
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for server.xml_tomcat @clientauth
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for server.xml_tomcat @connectiontimeout
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for server.xml_tomcat @deployonstartup
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for server.xml_tomcat @maxhttpheadersize
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for server.xml_tomcat @secure
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for server.xml_tomcat @shutdown
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for server.xml_tomcat @xpoweredby
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for server.xml_websphere @allowlogoutpageredirecttoanyhost
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for server.xml_websphere @displayauthenticationrealm
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for server.xml_websphere @preservefullyqualifiedreferrerurl
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for standalone.xml @default-user
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for standalone.xml @display-source-fragment
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for standalone.xml @scan-interval
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for standalone.xml @value
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for standalone.xml @x-powered-by
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @allowoverride
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @cacherolesincookie
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @certificatevalidationmode
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @connectionprotection
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @cookieless
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @cookieprotection
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @cookierequiressl
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @cookieslidingexpiration
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @cookietimeout
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @createpersistentcookie
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @debug
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @decryptionkey
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @enablecrossappredirects
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @enabled
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @enabled[directorybrowse]
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @enableeventvalidation
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @enableheaderchecking
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @enableversionheader
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @enableviewstatemac
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @httponlycookies
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @level
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @maxeventdetaillength
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @maxeventlengthforsimplemessage
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @maxrequestlength
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @maxsizeforsimplemessage
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @minrequirednonalphanumericcharacters
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @minrequiredpasswordlength
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @mode
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @name[@credentials]
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @passwordformat
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @protection
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @requestvalidationmode
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @requiressl
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @requiressl[@authentication]
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @slidingexpiration
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @statuscode
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @timeout
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @type
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @username[@identity]
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @users
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @useunsafeheaderparsing
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @validaterequest
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @validation
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @validationkey
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @value
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @value[@accesscontrolalloworiginheader]
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @value[@aspnetcore_environment]
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @value[uselegacyencryption]
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @value[x-frame-options]
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config @viewstateencryptionmode
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config ciphervalue[@sessionstate]
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config remove/@name[documentation]
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.config remove/@name[x-powered-by]
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.xml error-code
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.xml http-method
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.xml http-only
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.xml param-value
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.xml secure
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.xml session-timeout
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.xml tracking-mode
+[27/05/2025, 08:10:19] warn: Localization 2070 was not found for web.xml transport-guarantee
+[27/05/2025, 08:10:19] info: Clean up logs files was started
+[27/05/2025, 08:10:19] info: Clean up logs files was finished
