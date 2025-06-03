@@ -1,0 +1,53 @@
+
+GUIA: COMO SINCRONIZAR SEU PROJETO LOCAL COM O GITHUB
+
+---------------------------------------------
+📥 SE VOCÊ EDITOU NO GITHUB (navegador)
+---------------------------------------------
+
+1. Abra o terminal e vá até a pasta do projeto:
+
+   cd C:/Users/papel/Desktop/papelaria-carrinho
+
+2. Baixe as alterações feitas online:
+
+   git pull
+
+
+---------------------------------------------
+✏️ SE VOCÊ FOR EDITAR LOCALMENTE (VS Code)
+---------------------------------------------
+
+1. Abra o VS Code na pasta do projeto
+
+2. Faça suas alterações (HTML, imagens etc)
+
+3. No terminal, dentro da pasta do projeto, use:
+
+   git add .
+   git commit -m "Descrição da alteração"
+   git push
+
+
+---------------------------------------------
+⚠️ IMPORTANTE: Evite conflitos
+---------------------------------------------
+
+- Sempre use 'git pull' antes de começar a editar localmente
+- Sempre use 'git push' após terminar de editar localmente
+
+---------------------------------------------
+📌 RESUMO RÁPIDO DOS COMANDOS
+---------------------------------------------
+
+| Ação                     | Comando                                       |
+|--------------------------|-----------------------------------------------|
+| Ir até o projeto         | cd C:/Users/papel/Desktop/papelaria-carrinho  |
+| Baixar alterações        | git pull                                      |
+| Ver arquivos alterados   | git status                                    |
+| Adicionar mudanças       | git add .                                     |
+| Criar um commit          | git commit -m "sua mensagem"                  |
+| Enviar para o GitHub     | git push                                      |
+
+---
+Feito com ajuda do ChatGPT 😊
