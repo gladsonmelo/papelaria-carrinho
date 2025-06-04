@@ -187,13 +187,14 @@
       { nome: "EVA Liso", descricao: "Tam. 40x95", preco: 8.00 },
       { nome: "EVA Glitter", descricao: "Tam. 40x60", preco: 10.00 },
       { nome: "Caneta BIC", descricao: "Cores: Vermelha, Azul, Preta", preco: 2.00 }
-      { nome: "Fita Dupla face Aldebras 12mm x 2m suporta 550g", descricao: "Dupla face massa adesiva ambientes internos e externos", preco: 18.00 }
-      { nome: "Fita Dupla face Adebras fita banana 24mm x 2m", descricao: "Dupla face espuma ambientes internos", preco: 15.00 }
-      { nome: "Fita Gomada empacotamento  Adere 38x50m", descricao: "Fita Gomada para empacotamento ", preco: 22.00 }
-      { nome: "Fita Transparente empacotamento  chinesa  500m", descricao: "Fita trsndpsrente para empacotamento ", preco: 25.00 }
-      { nome: "Fita Crepe branca Adere 48x50m", descricao: "Fita Crepe para uso geral ", preco: 22.00 }
-      { nome: "Fita Crepe branca Adere 12x50m", descricao: "Fita Crepe para uso geral ", preco: 8.00 }
-      { nome: "Espeto para armazenar comandas ", descricao: "Espeto em aço para guardar comprovantes, comandas ", preco: 25.00 }
+      { nome: "Fita Dupla face Aldebras 12mm x 2m suporta 550g", descricao: "Dupla face massa adesiva ambientes internos e externos", preco: 18.00 },
+      { nome: "Fita Dupla face Adebras fita banana 24mm x 2m", descricao: "Dupla face espuma ambientes internos", preco: 15.00 },
+      { nome: "Fita Gomada empacotamento Adere 38x50m", descricao: "Fita Gomada para empacotamento", preco: 22.00 },
+      { nome: "Fita Transparente empacotamento chinesa 500m", descricao: "Fita transparente para empacotamento", preco: 25.00 },
+      { nome: "Fita Crepe branca Adere 48x50m", descricao: "Fita Crepe para uso geral", preco: 22.00 },
+      { nome: "Fita Crepe branca Adere 12x50m", descricao: "Fita Crepe para uso geral", preco: 8.00 },
+      { nome: "Espeto para armazenar comandas", descricao: "Espeto em aço para guardar comprovantes, comandas", preco: 25.00 }
+    ];
 
 
       
